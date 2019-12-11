@@ -126,14 +126,14 @@ iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 80 -j DNAT --to 192.168.200
 
 ## Una vez terminado lo anterior ya tendremos nuestro escenario para realizar las tareas
 
-[Tarea 1](). Permite realizar conexiones ssh desde los equipos de la LAN
+[Tarea 1](https://github.com/MoralG/Cortafuego_Perimetral/blob/master/Cortafuego_Perimetral.md#1-permite-realizar-conexiones-ssh-desde-los-equipos-de-la-lan). Permite realizar conexiones ssh desde los equipos de la LAN
 
-[Tarea 2](). Instala un servidor de correos en la máquina de la LAN. Permite el acceso desde el exterior y desde el cortafuego al servidor de correos. Para probarlo puedes ejecutar un telnet al puerto 25 tcp.
+[Tarea 2](https://github.com/MoralG/Cortafuego_Perimetral/blob/master/Cortafuego_Perimetral.md#2-instala-un-servidor-de-correos-en-la-m%C3%A1quina-de-la-lan-permite-el-acceso-desde-el-exterior-y-desde-el-cortafuego-al-servidor-de-correos-para-probarlo-puedes-ejecutar-un-telnet-al-puerto-25-tcp). Instala un servidor de correos en la máquina de la LAN. Permite el acceso desde el exterior y desde el cortafuego al servidor de correos. Para probarlo puedes ejecutar un telnet al puerto 25 tcp.
 
-[Tarea 3](). Permite poder hacer conexiones ssh desde exterior a la LAN
+[Tarea 3](https://github.com/MoralG/Cortafuego_Perimetral/blob/master/Cortafuego_Perimetral.md#3-permite-poder-hacer-conexiones-ssh-desde-exterior-a-la-lan). Permite poder hacer conexiones ssh desde exterior a la LAN
 
-[Tarea 4](). Modifica la regla anterior, para que al acceder desde el exterior por ssh tengamos que conectar al puerto 2222, aunque el servidor ssh este configurado para acceder por el puerto 22.
+[Tarea 4](https://github.com/MoralG/Cortafuego_Perimetral/blob/master/Cortafuego_Perimetral.md#4-modifica-la-regla-anterior-para-que-al-acceder-desde-el-exterior-por-ssh-tengamos-que-conectar-al-puerto-2222-aunque-el-servidor-ssh-este-configurado-para-acceder-por-el-puerto-22). Modifica la regla anterior, para que al acceder desde el exterior por ssh tengamos que conectar al puerto 2222, aunque el servidor ssh este configurado para acceder por el puerto 22.
 
-[Tarea 5](). Permite hacer consultas DNS sólo al servidor 192.168.202.2. Comprueba que no puedes hacer un dig @1.1.1.1.
+[Tarea 5](https://github.com/MoralG/Cortafuego_Perimetral/blob/master/Cortafuego_Perimetral.md#5-permite-hacer-consultas-dns-s%C3%B3lo-al-servidor-1921682022-comprueba-que-no-puedes-hacer-un-dig-1111). Permite hacer consultas DNS sólo al servidor 192.168.202.2. Comprueba que no puedes hacer un dig @1.1.1.1.
 
-[Tarea 6](). ¿Tendría resolución de nombres y navegación web el cortafuego? ¿Sería necesario? ¿Tendrían que estar esas de reglas de forma constante en el cortafuego?
+[Tarea 6](https://github.com/MoralG/Cortafuego_Perimetral/blob/master/Cortafuego_Perimetral.md#6-tendr%C3%ADa-resoluci%C3%B3n-de-nombres-y-navegaci%C3%B3n-web-el-cortafuego). ¿Tendría resolución de nombres y navegación web el cortafuego? ¿Sería necesario? ¿Tendrían que estar esas de reglas de forma constante en el cortafuego?
